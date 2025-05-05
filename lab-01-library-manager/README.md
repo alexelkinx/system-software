@@ -25,11 +25,12 @@ The project was built using a **Makefile** to manage the build process. I used *
 ## Directory Structure
 
 ```
-lab_1/
+lab-01-library-manager/
 │
 ├── file_operations.c     # Functions for file I/O
 ├── file_operations.h     # File I/O function declarations
 ├── library.c             # Functions for managing books
+├── library.csv           # Book database
 ├── library.h             # Library management functions
 ├── main.c                # Main program logic
 ├── Makefile              # Build configuration file
@@ -73,7 +74,7 @@ gcc --version
 1. **Navigate to the project root directory:**
 
    ```bash
-   cd lab_1
+   cd lab-01-library-manager
    ```
 
 2. **Compile the program using Makefile:**
@@ -85,7 +86,7 @@ gcc --version
 3. **Run the executable:**
 
    ```bash
-   ./library_manager
+   ./library_app
    ```
 
 ## Using the Program

@@ -29,7 +29,7 @@ In **Lab 1**, I developed a simple **Library Manager** application in C to manag
 - Save and load library data from a file
 - Built with a **Makefile** for managing the build process
 
-**[See Lab 1 Details](lab_1/README.md)**
+**[See Lab 1 Details](lab-01-library-manager/README.md)**
 
 ---
 
@@ -45,7 +45,7 @@ In **Lab 2**, I created a program to apply **Moving Average** and **Low-Pass Fil
 - Fetches real-time temperature data from a weather API
 - Plots original and filtered data using Python scripts
 
-**[See Lab 2 Details](lab_2/README.md)**
+**[See Lab 2 Details](lab-02-moving-average-filter/README.md)**
 
 ---
 
@@ -61,7 +61,7 @@ In **Lab 3**, I developed a traffic light simulation system that manages the sta
 - Handles **pedestrian requests** (button press)
 - Supports **night period** and **blinking yellow transitions**
 
-**[See Lab 3 Details](lab_3/README.md)**
+**[See Lab 3 Details](lab-03-traffic-light-controller/README.md)**
 
 ---
 
@@ -75,9 +75,9 @@ Each lab uses different tools for building:
 
 For each project, follow these steps to build and run the respective programs. Refer to the detailed instructions inside each lab's `README.md`:
 
-- **[Lab 1: Library Manager](lab_1/README.md)**
-- **[Lab 2: Moving Average Filter](lab_2/README.md)**
-- **[Lab 3: Traffic Light Controller](lab_3/README.md)**
+- **[Lab 1: Library Manager](lab-01-library-manager/README.md)**
+- **[Lab 2: Moving Average Filter](lab-02-moving-average-filter/README.md)**
+- **[Lab 3: Traffic Light Controller](lab-03-traffic-light-controller/README.md)**
 
 ---
 

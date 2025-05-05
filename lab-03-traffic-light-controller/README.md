@@ -22,7 +22,8 @@ The program runs in an infinite loop, managing transitions and responding to but
 ## Directory Structure
 
 ```
-lab_3/
+lab-03-traffic-light-controller/
+│
 ├── include/                # Header files
 │ ├── error_codes.h         # Error code definitions
 │ └── traffic_light.h       # Function declarations for traffic light operations
@@ -32,8 +33,7 @@ lab_3/
 │ └── traffic_light.c       # Traffic light functionality
 │
 ├── CMakeLists.txt          # Build configuration file for CMake
-├── readme.md               # Lab overview and task description
-└── solution.md             # Project overview, setup, and usage instructions
+└── README.md               # Project overview, setup, and usage instructions
 ```
 
 ## Source Files
