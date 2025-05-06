@@ -1,52 +1,39 @@
-# Prerequisites
+# Object and dependency files
+*.o
 *.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
 # Executables
-*.exe
 *.out
-*.app
-*.i*86
-*.x86_64
+*.elf
 *.hex
+*.bin
+*.exe
+*.app
 
-# Debug files
+# Backup files
+*~
+*.swp
+*.bak
+
+# macOS system files
+.DS_Store
+
+# VSCode settings (if used)
+.vscode/
+
+# Debug and analysis artifacts
 *.dSYM/
-*.su
-*.idb
 *.pdb
+*.idb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Build artifacts (optional, if you have a build/ folder)
+build/
+
+# Ignore compiled binaries by default (adjust if your output is named differently)
+library_app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
