@@ -83,10 +83,16 @@ gcc --version
    make
    ```
 
-3. **Run the executable:**
+3. **Run the executable and provide a file name to load or create the library:**
 
    ```bash
-   ./library_app
+   ./library_app library.csv
+   ```
+
+   If the file does not exist, the program will start with an empty library and create the file on exit. You can also use any file name without an extension, such as:
+
+   ```bash
+   ./library_app mylibrary
    ```
 
 ## Using the Program
@@ -108,20 +114,35 @@ Each command triggers the corresponding function to handle the request. The prog
 
 ### Example Usage:
 
+Example session:
+
 ```bash
-add
-del
-list
-lall
-lone
-loan
-return
-exit
+./library_app library.csv
+```
+
+Output:
+
+```
+Total books loaded: 14
+
+Enter command (add, del, list, lall, lone, loan, return, exit): add
+Enter book title: Animal Farm
+Enter author name: George Orwell
+Book added successfully with ID 15!
+
+Enter command (add, del, list, lall, lone, loan, return, exit): add
+Library is full. Cannot add more books.
+
+Enter command (add, del, list, lall, lone, loan, return, exit): exit
+Exiting program...
 ```
 
 ### File Operations
 
 When the program is executed, it will ask for a file name, and any changes made to the library will be saved to that file. You can also load the library data from the file when the program starts.
+
+A sample file `library.csv` is included in the project folder, containing initial book data. You can use it as a starting point or create your own.
+The maximum number of books the library can hold is 15.
 
 ## Error Handling
 
