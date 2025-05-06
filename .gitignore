@@ -29,7 +29,7 @@
 # Build artifacts (optional, if you have a build/ folder)
 build/
 
-# Ignore compiled binaries by default (adjust if your output is named differently)
+# Ignore compiled binaries by default (for lab-01-library-manager)
 library_app
 
 # CMake generated files
@@ -37,3 +37,15 @@ CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Test-related files
+*.pytest_cache/
+*.coverage
