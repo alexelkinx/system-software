@@ -1,8 +1,8 @@
-# System Software (with C)
+# System Software
 
 ## Overview
 
-This repository contains the projects and solutions for the **System Software (with C)** course, which spans a semester and covers various aspects of system software development, including file handling, data processing, and simulation systems. The course focuses on programming in C, and each lab is designed to strengthen the understanding of fundamental concepts such as data structures, memory management, and hardware interaction.
+This repository contains the projects and solutions for the **System Software** course, which spans a semester and covers various aspects of system software development, including file handling, data processing, and simulation systems. The course focuses on programming in C, and each lab is designed to strengthen the understanding of fundamental concepts such as data structures, memory management, and hardware interaction.
 
 The course includes three primary labs that involve the development of:
 
