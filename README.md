@@ -1,8 +1,25 @@
-# System Software
+# System Software (C Programming Projects)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue" alt="C"/>
+  <img src="https://img.shields.io/badge/Build-Makefile-informational" alt="Makefile"/>
+  <img src="https://img.shields.io/badge/Build-CMake-informational" alt="CMake"/>
+  <img src="https://img.shields.io/badge/Scripting-Python-yellowgreen" alt="Python"/>
+  <img src="https://img.shields.io/badge/Data-CSV-orange" alt="CSV"/>
+</p>
 
 ## Overview
 
 This repository contains the projects and solutions for the **System Software** course, which spans a semester and covers various aspects of system software development, including file handling, data processing, and simulation systems. The course focuses on programming in C, and each lab is designed to strengthen the understanding of fundamental concepts such as data structures, memory management, and hardware interaction.
+
+## Topics Covered
+
+- File I/O and data persistence in C
+- Structs, arrays, and memory management
+- Data smoothing and filters (Moving Average, Low-Pass)
+- Basic CMake and Makefile usage
+- Python scripting for data processing and visualization
+- State machines and simulation of control systems
 
 The course includes three primary labs that involve the development of:
 
@@ -67,17 +84,7 @@ In **Lab 3**, I developed a traffic light simulation system that manages the sta
 
 ## Building the Projects
 
-Each lab uses different tools for building:
-
-1. **Lab 1** uses a **Makefile** for building the project.
-2. **Lab 2** uses **CMake** for building and **Python** for data fetching and plotting.
-3. **Lab 3** uses **CMake** for building the project.
-
-For each project, follow these steps to build and run the respective programs. Refer to the detailed instructions inside each lab's `README.md`:
-
-- **[Lab 1: Library Manager](lab-01-library-manager/README.md)**
-- **[Lab 2: Moving Average Filter](lab-02-moving-average-filter/README.md)**
-- **[Lab 3: Traffic Light Controller](lab-03-traffic-light-controller/README.md)**
+For build and run instructions, refer to each lab’s dedicated `README.md` file.
 
 ---
 
